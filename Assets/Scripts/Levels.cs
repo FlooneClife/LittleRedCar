@@ -33,9 +33,8 @@ public class Levels : MonoBehaviour {
     void Update() {
         //if the car has reached the finish zone
         if((car.transform.position.z >= finishZone.transform.position.z - 1) &&
-           ((car.transform.position.x > -1.8f) && (car.transform.position.x < 1.8f)) &&
            ((car.transform.position.y > 1.10f) && (car.transform.position.y < 1.40f))) {
-            SceneManager.LoadScene(nextLevelName); //load next level
+            SceneManager.LoadScene(nextLevelName);
             confettis.Play();
         }
         //if the car has fallen off
