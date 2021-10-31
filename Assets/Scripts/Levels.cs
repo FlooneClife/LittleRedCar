@@ -25,9 +25,6 @@ public class Levels : MonoBehaviour {
         levelNumber = int.Parse(levelName.Substring(5));
         textLevelNumber.text = "Level " + levelNumber;
         nextLevelName = "Level" + (levelNumber + 1);
-        if(levelNumber != 1) {
-            confettis.Play();
-        }
     }
 
     void Update() {
@@ -39,7 +36,7 @@ public class Levels : MonoBehaviour {
         }
         //if the car has fallen off
         if(car.transform.position.y < -5.0f) {
-            car.transform.position = new Vector3(0.0f, 1.25f, -0.5f); //respawn
+            SceneManager.LoadScene(nextLevelName); //reload current level
         }
     }
 
