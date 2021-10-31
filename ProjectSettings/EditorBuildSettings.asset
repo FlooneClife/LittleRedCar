@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: f1d562f7268a7cc4d8a77e1d68ddf569
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: d5107eefef518c844868daf5e29ced9d
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 8b06c42e0d917c344b646b2606f5467d
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 3e54e8d046457404b9da6dd8f1a9965b
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: b8fc4fdd4fad0a841a209cba633388e3
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: c2f498da597919149a9fc0d0e3fe4caf
+  - enabled: 1
+    path: Assets/Scenes/Level6.unity
+    guid: 46a3a5975d8b99e4f88a3eb0c7159007
+  - enabled: 1
+    path: Assets/Scenes/Level7.unity
+    guid: 49f711b3b645fcf4083c02b753811208
+  - enabled: 1
+    path: Assets/Scenes/Level8.unity
+    guid: c2cec21d60977a345a6844e03d511e97
+  - enabled: 1
+    path: Assets/Scenes/Level9.unity
+    guid: e952ecac730e98a48a1663a2ca4736fb
+  - enabled: 1
+    path: Assets/Scenes/Level10.unity
+    guid: 1330bde04a393da40a4ac18dda4a12ba
+  - enabled: 1
+    path: Assets/Scenes/Level11.unity
+    guid: bf6d12b8f3d3b9b4a818cb15dd2d49ba
+  - enabled: 1
+    path: Assets/Scenes/Level12.unity
+    guid: 6c6b5608ff32a1545b1861aa38fca76f
+  - enabled: 1
+    path: Assets/Scenes/Level13.unity
+    guid: 2da8ea6e8a243024c89014fca153c094
+  - enabled: 1
+    path: Assets/Scenes/Level14.unity
+    guid: 2bfc8bf9e2695c346a16521e1ce6c0dc
+  - enabled: 1
+    path: Assets/Scenes/Level15.unity
+    guid: 55a90df7ebca507448cd0145ede8c5ae
+  - enabled: 1
+    path: Assets/Scenes/Level16.unity
+    guid: 01f265ff57048df4387d36d579798b97
+  - enabled: 1
+    path: Assets/Scenes/Level17.unity
+    guid: a114e515f146b1742bd32375bb0bd05f
+  - enabled: 1
+    path: Assets/Scenes/Level18.unity
+    guid: be422a76f2f5e0444b91a57f74cf0da4
+  m_configObjects: {}
